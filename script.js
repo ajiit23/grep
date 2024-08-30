@@ -1,3 +1,4 @@
+
 function matchPattern(inputLine, pattern) {
     let regex = pattern.replace('\\d', '[0-9]').replace('\\w', '[0-9a-zA-Z]');
 
